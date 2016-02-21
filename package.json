@@ -1,0 +1,35 @@
+{
+  "name": "today-in-america",
+  "version": "1.0.0",
+  "description": "First version of a fact aggregator app (promoting Bernie Sanders' campaign)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "promised-mongo": "1.2.0"
+  },
+  "engines": {
+    "node": "0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsetka/today-in-america.git"
+  },
+  "keywords": [
+    "bernie",
+    "sanders",
+    "today",
+    "america",
+    "facts"
+  ],
+  "author": "Vladimir Setka",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vsetka/today-in-america/issues"
+  },
+  "homepage": "https://github.com/vsetka/today-in-america#readme"
+}
